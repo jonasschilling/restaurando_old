@@ -1,3 +1,7 @@
+body {
+	background-color: #7F6E64;
+}
+
 .button {
 	background-color: #52DEE5;
 	border: none;
@@ -7,18 +11,29 @@
 	text-decoration: none;
 	display: inline-block;
 	font-size: 16px;
+	border-radius: 8px;
 }
 
-#button01 {
+.button:hover {
+	background-color: #6DE2E9;
+}
+
+.button:focus {
+	background-color: #23D5DE;
+}
+
+#buttonReservation {
 	margin: 50 50 50 50;
 }
 
 .reservation {
 	color: #000000;
-	background-color: #92DCE5;
+	background-color: #EEE5E9;
 	border: none;
-	width: 150px;
-	height: 30px;
+	width: 250px;
+	height: 50px;
+	border-radius: 8px;
+	font-size: 1.6em;
 }
 
 #titletext {
