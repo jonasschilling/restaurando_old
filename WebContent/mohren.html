@@ -35,7 +35,9 @@
 				</span> <a class="navbar-brand d-none d-lg-inline-block" href="index.html">
 					restaurando </a> <a
 					class="navbar-brand-two mx-auto d-lg-none d-inline-block" href="#">
-					<img src="./bsrestaurant/assets/images/logo/logo.png" alt="logo">
+					<img
+					src="./bsrestaurant/assets/images/logo/logo.png"
+					alt="logo">
 				</a>
 				<div class="w-100 text-right">
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -51,24 +53,69 @@
 						class="nav-link m-2 menu-item nav-active">Home</a></li>
 					<li class="nav-item"><a href="restaurants.html"
 						class="nav-link m-2 menu-item">Restaurants</a></li>
-					<li class="nav-item"><a href="qmuh.html"
+					<li class="nav-item"><a href="#"
 						class="nav-link m-2 menu-item">QMUH Test</a></li>
 					<li class="nav-item"><a href="#"
 						class="nav-link m-2 menu-item">Kontakt</a></li>
 				</ul>
 			</div>
 		</nav>
-		<div class="jumbotron text-center" id="jumbotronIndex">
+		<div class="jumbotron text-center" id="jumbotronmohren">
 			<div id="titletext">
-				<h1>restaurando</h1>
-				<p>Herzlich Willkommen bei restaurando! Legen Sie gleich los und
-					reservieren Sie sich einen Tisch bei einem unserer Restaurants!</p>
+				<h1>Wirtshaus Mohren</h1>
+				<p>Reservieren Sie Ihren Tisch bei Wirtshaus Mohren - gleich
+					hier!</p>
 			</div>
 			<p>
-				<a class="button" href="restaurants.html" role="button" id="button01">Zu den
-					Restaurants >></a>
+				<a class="button" href="#" role="button" id="button01">Speisekarte
+					>></a>
 			</p>
 		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Kategorien</h3>
+					<p>deutsch, europäisch, mitteleuropäisch</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>Was?</h3>
+					<p>Unser Restaurant in einem der ältesten Gebäude der Ravensburger Altstadt, überzeugt mit traditionellem Charme, der auf eine morderne Einrichtung trifft. Unsere Räumlichkeiten bieten sich auch optimal als Eventlocation an.</p>
+				</div>
+				<div class="col-sm-4">
+					<h3>Wo?</h3>
+					<p>Marktstraße 61</p>
+					<p>88212 Ravensburg</p>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="reserve">
+			<h2 align="center">Reservierung bei Wirtshaus Mohren</h2>
+			<div class="row">
+				<div class="col-sm-4" align="center">
+					<h3>Datum auswählen:</h3>
+					<img src="https://img.icons8.com/metro/26/000000/calendar.png">
+					<input class="reservation" type="date" id="date" min="2019-11-13"
+						max="2020-12-31" required>
+				</div>
+				<div class="col-sm-4" align="center">
+					<h3>Uhrzeit auswählen:</h3>
+					<img src="https://img.icons8.com/metro/26/000000/clock.png">
+					<input class="reservation" type="time" id="time" min="09:00"
+						max="23:00" required>
+				</div>
+				<div class="col-sm-4" align="center">
+					<h3>Name:</h3>
+					<img
+						src="https://img.icons8.com/ios-glyphs/26/000000/human-head.png">
+					<input class="reservation" type="text" id="name">
+				</div>
+			</div>
+		</div>
+		<p>
+		<p align="center">
+			<button class="button" href="#" role="button" id="buttonReservation">Reservierung
+				absenden</button>
+		</p>
 	</header>
 	<script src="reservation.js"></script>
 </body>

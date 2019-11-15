@@ -1,4 +1,5 @@
 body {
+	margin: 50px;
 	background-color: #7F6E64;
 }
 
@@ -22,8 +23,17 @@ body {
 	background-color: #23D5DE;
 }
 
-#buttonReservation {
-	margin: 50 50 50 50;
+.card {
+	background-color: #383d3b;
+	color: #EEE5E9;
+	margin-top: 16px;
+	margin-right: 16px;
+	margin-bottom: 16px;
+	margin-left: 16px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
 }
 
 .reservation {
@@ -44,8 +54,18 @@ body {
 	color: #ffffff;
 }
 
-#jumbotron01 {
-	background-image: url("../bsrestaurant/assets/images/qmuh2.png");
+#jumbotronIndex {
+	background-image: url("../img/reserviert.png");
+	background-size: cover;
+}
+
+#jumbotronqmuh {
+	background-image: url("../img/qmuh2.png");
+	background-size: cover;
+}
+
+#jumbotronmohren {
+	background-image: url("../img/mohren2.png");
 	background-size: cover;
 }
 
@@ -72,10 +92,6 @@ html {
 	-ms-text-size-adjust: 100%
 }
 
-body {
-	margin: 0
-}
-
 article, aside, details, figcaption, figure, footer, header, hgroup,
 	main, menu, nav, section, summary {
 	display: block
@@ -87,24 +103,54 @@ audio, canvas, progress, video {
 }
 
 audio
+
+
+
+
 :not
+
+
  
+
+
 (
 [
 controls
 ]
+
+
  
+
+
 ){
 display
-:
- 
-none
-;
 
-	
-height
+
+
+
 :
+
+
  
+
+
+none
+
+
+
+
+;
+height
+
+
+
+
+:
+
+
+ 
+
+
 0
 }
 [hidden], template {
@@ -165,16 +211,40 @@ img {
 }
 
 svg
+
+
+
+
 :not
+
+
  
+
+
 (
 :root
+
+
  
+
+
 ){
 overflow
+
+
+
+
 :
+
+
  
+
+
 hidden
+
+
+
+
 
 
 }
@@ -4083,28 +4153,64 @@ tbody.collapse.in {
 .btn-group
 >
 .btn
+
+
+
+
 :not
+
+
  
+
+
 (
 :first-child
+
+
  
+
+
 )
 :not
+
+
  
+
+
 (
 :last-child
+
+
  
+
+
 )
 :not
+
+
  
+
+
 (
 .dropdown-toggle
 
+
+
 	
+
+
 ){
 border-radius
+
+
+
+
 :
+
+
  
+
+
 0
 }
 .btn-group>.btn:first-child {
@@ -4114,55 +4220,139 @@ border-radius
 .btn-group
 >
 .btn
+
+
+
+
 :first-child
+
+
+
+
 :not
+
+
  
+
+
 (
 :last-child
+
+
  
+
+
 )
 :not
+
+
  
+
+
 (
 .dropdown-toggle
+
+
  
+
+
 ){
 border-top-right-radius
+
+
+
+
 :
+
+
  
+
+
 0;
 border-bottom-right-radius
+
+
+
+
 :
+
+
  
+
+
 0
 }
 .btn-group
 >
 .btn
+
+
+
+
 :last-child
+
+
+
+
 :not
+
+
  
+
+
 (
 :first-child
+
+
  
+
+
 ),
 .btn-group
 >
 .dropdown-toggle
+
+
+
+
 :not
 
+
+
 	
+
+
 (
 :first-child
+
+
  
+
+
 ){
 border-top-left-radius
+
+
+
+
 :
+
+
  
+
+
 0;
 border-bottom-left-radius
+
+
+
+
 :
+
+
  
+
+
 0
 }
 .btn-group>.btn-group {
@@ -4243,73 +4433,187 @@ border-bottom-left-radius
 .btn-group-vertical
 >
 .btn
+
+
+
+
 :not
+
+
  
+
+
 (
 :first-child
+
+
  
+
+
 )
 :not
+
+
  
+
+
 (
 :last-child
+
+
  
+
+
 ){
 border-radius
+
+
+
+
 :
+
+
  
+
+
 0
 }
 .btn-group-vertical
 >
 .btn
+
+
+
+
 :first-child
+
+
+
+
 :not
+
+
  
+
+
 (
 :last-child
+
+
  
+
+
 ){
 border-top-right-radius
+
+
+
+
 :
+
+
  
+
+
 4
 px
-;
 
-	
+
+
+
+;
 border-bottom-right-radius
+
+
+
+
 :
+
+
  
+
+
 0;
 border-bottom-left-radius
+
+
+
+
 :
+
+
  
+
+
 0
 }
 .btn-group-vertical
 >
 .btn
+
+
+
+
 :last-child
+
+
+
+
 :not
+
+
  
+
+
 (
 :first-child
+
+
  
+
+
 ){
 border-top-left-radius
+
+
+
+
 :
+
+
  
+
+
 0;
 border-top-right-radius
+
+
+
+
 :
+
+
  
+
+
 0;
 border-bottom-left-radius
+
+
+
+
 :
+
+
  
+
+
 4
 px
+
+
+
+
 
 
 }
@@ -4429,49 +4733,121 @@ select[multiple].input-group-sm>.form-control, select[multiple].input-group-sm>.
 }
 
 .input-group
+
+
  
+
+
 .form-control
+
+
+
+
 :not
+
+
  
+
+
 (
 :first-child
+
+
  
+
+
 )
 :not
+
+
  
+
+
 (
 :last-child
+
+
  
+
+
 ),
 .input-group-addon
+
+
+
+
 :not
+
+
  
+
+
 (
 :first-child
+
+
  
+
+
 )
 :not
+
+
  
+
+
 (
 :last-child
+
+
  
+
+
 ),
 .input-group-btn
+
+
+
+
 :not
+
+
  
+
+
 (
 :first-child
+
+
  
+
+
 )
 :not
+
+
  
+
+
 (
 :last-child
+
+
  
+
+
 ){
 border-radius
+
+
+
+
 :
+
+
  
+
+
 0
 }
 .input-group-addon, .input-group-btn {
@@ -4510,19 +4886,39 @@ border-radius
 }
 
 .input-group
+
+
  
+
+
 .form-control
+
+
+
+
 :first-child
 ,
 .input-group-addon
+
+
+
+
 :first-child
 ,
 .input-group-btn
+
+
+
+
 :first-child
 >
 .btn
 ,
 .input-group-btn
+
+
+
+
 :first-child
 >
 .btn-group
@@ -4530,47 +4926,107 @@ border-radius
 .btn
 ,
 .input-group-btn
+
+
+
+
 :first-child
 >
 .dropdown-toggle
 ,
 .input-group-btn
+
+
+
+
 :last-child
 >
 .btn-group
+
+
+
+
 :not
 
+
+
 	
+
+
 (
 :last-child
+
+
  
+
+
 )>
 .btn
 ,
 .input-group-btn
+
+
+
+
 :last-child
 >
 .btn
+
+
+
+
 :not
+
+
  
+
+
 (
 :last-child
 
+
+
 	
+
+
 )
 :not
+
+
  
+
+
 (
 .dropdown-toggle
+
+
  
+
+
 ){
 border-top-right-radius
+
+
+
+
 :
+
+
  
+
+
 0;
 border-bottom-right-radius
+
+
+
+
 :
+
+
  
+
+
 0
 }
 .input-group-addon:first-child {
