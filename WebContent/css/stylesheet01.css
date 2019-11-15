@@ -36,6 +36,24 @@ body {
 	padding-left: 5px;
 }
 
+.card-button{
+	background-color: #52DEE5;
+	border: none;
+	color: white;
+	padding: 8px 8px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	border-radius: 8px;
+}
+
+.card-text{
+	color: #EEE5E9;
+	font-size: 20px;
+	padding: 8px;
+}
+
 .reservation {
 	color: #000000;
 	background-color: #EEE5E9;
